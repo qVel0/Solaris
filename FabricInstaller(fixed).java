@@ -9,7 +9,7 @@ import java.nio.file.Path;
 import java.nio.file.StandardCopyOption;
 
 public class FabricInstaller {
-    private static final String BASE = "https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/fabric/";
+    private static final String BASE = "https://raw.githubusercontent.com/qVel0/Solaris/main/fabric/";
     private static final HttpClient HTTP = HttpClient.newHttpClient();
 
     private static String getText(String url) throws Exception {
